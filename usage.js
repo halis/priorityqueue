@@ -10,7 +10,6 @@ q.add('e', 200)
 
 let answer = q.print()
 if (answer !== 'e -> b -> c -> a -> d -> null') {
-  console.log({ answer })
   throw new Error('fail: e -> b -> c -> a -> d -> null')
 }
 
